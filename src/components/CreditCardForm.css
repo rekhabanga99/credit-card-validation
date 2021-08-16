@@ -1,0 +1,66 @@
+.container {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.formDiv {
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+}
+
+.alert {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rccs__card--unknown > div {
+  background-image: url(../Images/credit-card-front.jpg) !important;
+}
+.rccs__chip{
+  background-image: url(../Images/chip.png) !important;
+}
+.creditCard{
+    margin-bottom: 10%;
+    margin-top: -35%;
+  
+   
+}
+.button, input, optgroup, select, textarea{
+  padding: 3px;
+  border-radius: 4px;
+  display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15
+}
+.label{
+font-size: 10px;
+}
+.labelCvv{
+  font-size: 10px;
+  margin-left: 79%; 
+}
+.rccs__issuer{
+  background-image: url(../Images/visa2.png) !important;
+}
+
+.rccs__card--unknown .rccs__issuer{
+  visibility:visible !important
+}
+
+
